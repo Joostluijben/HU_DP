@@ -1,7 +1,7 @@
 //Joost Luijben
 //1718331
 //V1E
-//Inleveropdracht persistentie 1
+//lesopdracht persistentie 1
 package Les2.lesopdracht;
 
 import java.sql.Date;
