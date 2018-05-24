@@ -1,24 +1,16 @@
-package Les2.inleveropdracht;
+package Les3.voorbereidendeopdracht;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Reiziger {
     private String naam;
     private Date gbdatum;
-    private int reizigersID;
+    private int reizigerID;
+    private ArrayList<OVchipkaart> OVs;
 
     public Reiziger() {
 
-    }
-
-    public Reiziger(int ID) {
-        reizigersID = ID;
-    }
-
-    public Reiziger(String nm, Date gb, int ID) {
-        naam = nm;
-        gbdatum = gb;
-        reizigersID = ID;
     }
 
     public String getNaam() {
@@ -41,8 +33,13 @@ public class Reiziger {
         return naam + " " + gbdatum;
     }
 
-    public int getReizigersID() {
-        return reizigersID;
+    public int getReizigerID() {
+        return reizigerID;
     }
+
+    public void setReizigerID(int ID) {
+        reizigerID = ID;
+    }
+
 
 }

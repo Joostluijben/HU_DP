@@ -36,6 +36,7 @@ public class ReizigerDAOImpl extends OracleBaseDao implements ReizigerDAO {
 
             //using a constructor instead of the set methods, because it is cleaner. In voorbereidendeopdracht used set methods
             Reiziger rz = new Reiziger(naam, gbdatum, ID);
+            getOVchipkaarten(rz);
             reizigers.add(rz);
         }
         return reizigers;
@@ -149,6 +150,7 @@ public class ReizigerDAOImpl extends OracleBaseDao implements ReizigerDAO {
                 ovs.add(ov);
             }
         }
+        rz.setoVchipkaart(ovs);
         return ovs;
     }
 }

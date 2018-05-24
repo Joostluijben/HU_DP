@@ -4,8 +4,9 @@ Joost Luijben
 Les2.voorbereidendeopdracht
 */
 
-package Les2.voorbereidendeopdracht;
+package Les3.voorbereidendeopdracht;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class OVchipkaart {
@@ -14,6 +15,7 @@ public class OVchipkaart {
     private int klasse;
     private double saldo;
     private int reizigerID;
+    private ArrayList<Product> producten = new ArrayList<>();
 
     public OVchipkaart() {
 

@@ -28,12 +28,12 @@ public class OVchipkaart {
     }
 
     public String toString() {
-        String str = "\n" + "OVchipkaart: \n";
-        str += "kaartnummer: " + kaartnummer + "\n";
-        str += "geldig tot : " + geldigTot + "\n";
-        str += "klasse: " + klasse + "\n";
-        str += "saldo:" + saldo + "\n";
-        str += "reizigersID: " + reizigerID + "\n";
-        return str;
+        return "OVchipkaart{" +
+                "kaartnummer=" + kaartnummer +
+                ", geldigTot=" + geldigTot +
+                ", klasse=" + klasse +
+                ", saldo=" + saldo +
+                ", reizigerID=" + reizigerID +
+                '}';
     }
 }
